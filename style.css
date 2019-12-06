@@ -1,0 +1,122 @@
+body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.narrow-col {
+	height: 100%;
+	width: 35%; 
+	display: block
+	
+}
+
+.wide-col { 
+	height: 100%; 
+	width: 65%;
+	display: flex
+  }
+
+.character { 
+	height: 75%;
+	width: 100%;
+	display: flex
+} 
+
+.title { 
+	height: 25%; 
+	width: 100%;
+    display: flex
+}
+
+
+.game-col { 
+	height: 100%;
+	width: 33%;  
+	display: block; 
+} 
+
+.box {  
+	height: 32%; 
+	width: 100%;  
+	padding: 5px;
+	display: flex; 
+} 
+
+.poof { 
+  display: none
+} 
+
+
+.pointer {
+	cursor: pointer;
+} 
+
+.contain-image {
+	max-height: 90%;
+	max-width: 90%;
+}
+
+opaque:hover {
+	opacity: 0.5; 
+	filter: grayscale(100%)
+}
+.button:active { 
+    transform: scale(0.95, 0.95);
+}
+
+.all-grey {
+	filter: grayscale(100%);
+}
+.shadow {
+	filter: drop-shadow(3px 4px 4px);
+}
+
+.blue {background-color: #a2adbf;}
+.tan {background-color: #c8a36f;}
+.green {background-color: #008D24;}
+.light_blue {background-color: #0B69C0;} 
+.red {background-color: #CA1B22;}
+.orange {background-color: #EA6626;}
+.light-grey {background-color: #A9A9A9;}
+.dark-grey {background-color: #707070;}
+.black {background-color: #000000;}
+.white {background-color: #FFFFFF;} 
+.dark_blue {background-color: #00008B} 
+.dark_red {background-color: #8B0000}  
+
+
+@media only screen and (max-width: 700px) {
+
+	body { 
+		display: block 
+	}
+
+	.narrow-col { 
+		width: 100%
+	}
+    .wide-col { 
+	    width: 100%;
+	} 
+	
+
+}
+
+
+@media only screen and (max-width: 600px) {
+	
+	.wide-col { 
+		display: block
+	}
+	
+	.game-col { 
+		width: 100%;
+	} 
+	
+	.contain-image {
+	max-height: 90%;
+	max-width: 100%;
+	}
+    
+
+}
