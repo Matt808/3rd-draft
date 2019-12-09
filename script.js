@@ -31,7 +31,7 @@ function disappear(elem){
 } 
  
  function noise(elem){
-	if (j.src. = ("images/Link.png")) { 
+	 { if (j.src. = ("images/Link.png") 
 	       k.play()	   
 	} 
 	else (j.src = ("images/CB.png")) { 
