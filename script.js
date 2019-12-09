@@ -31,10 +31,10 @@ function disappear(elem){
 } 
  
  function noise(elem){
-	if (j.src.match("images/Link.png")) { 
+	if (j.src. = ("images/Link.png")) { 
 	       k.play()	   
 	} 
-	else if (j.src.match("images/CB.png")) { 
+	else (j.src.match("images/CB.png")) { 
 	       l.play()	   
 	} 
 	else if (j.src.match("images/Fat_Man.png")) { 
