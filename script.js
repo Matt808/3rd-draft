@@ -25,7 +25,7 @@ function resetAll(elem){
 function disappear(elem){ 
     a.src = "images/Mask.gif"; 
     j.src = "images/Link.png"; 
-	if (j.src ==="images/Link.png") {
+	if (j.src = "images/Link.png") {
 		k.play()
 	} 
 } 
@@ -34,7 +34,7 @@ function disappear(elem){
 	if (j.src. = ("images/Link.png")) { 
 	       k.play()	   
 	} 
-	else (j.src.match("images/CB.png")) { 
+	else (j.src = ("images/CB.png")) { 
 	       l.play()	   
 	} 
 	else if (j.src.match("images/Fat_Man.png")) { 
