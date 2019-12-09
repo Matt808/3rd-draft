@@ -30,35 +30,13 @@ function disappear(elem){
 	} 
 } 
  
- function noise(elem){
-	 { if (j.src. = ("images/Link.png") 
+ function noise(elem ){
+     if (j.src. = ("images/Link.png") 
 	       k.play()	   
-	} 
-	else (j.src = ("images/CB.png")) { 
+	
+	else (j.src = ("images/CB.png") 
 	       l.play()	   
-	} 
-	else if (j.src.match("images/Fat_Man.png")) { 
-	       m.play()		   
-	} 
-	else if (j.src.match("images/Ryu.png")) { 
-	       n.play()		   
-	} 
-	else if (j.src.match("images/Kirb.png")) { 
-	       o.play()
-	console.log("Defect")		   
-	} 
-	else if (j.src.match("images/Sonic.png")) { 
-	       p.play()		   
-	} 
-	else if (j.src.match("images/Clone.png")) { 
-	       q.play()		   
-	}  
-	else if (j.src.match("images/Scorpion.png")) { 
-	       r.play()		   
-	} 
-	else if (j.src.match("images/Cole.png")) { 
-	       s.play()		   
-	} 
+     } 
 		
  } 
 
