@@ -7,44 +7,41 @@ body {
 
 .narrow-col {
 	height: 100%;
-	width: 35%; 
-	display: block
+	width: 35%;  
+	display: block 
 	
 }
 
 .wide-col { 
 	height: 100%; 
-	width: 65%;
+	width: 65%;   
 	display: flex
   }
 
 .character { 
 	height: 75%;
-	width: 100%;
+	width: 100%; 
 	display: flex
 } 
 
 .title { 
 	height: 25%; 
-	width: 100%;
+	width: 100%;   
         display: flex
 }
 
 
 .game-col { 
 	height: 100%;
-	width: 33%;  
+	width: calc(100%/3);    
 	display: block; 
 } 
 
 .box {  
-	height: 32%; 
+	height: calc(100%/3); 
 	width: 100%;  
+	border: 1px white solid;
 	display: flex; 
-} 
-
-.poof { 
-  display: none
 } 
 
 
@@ -53,20 +50,10 @@ body {
 } 
 
 
-opaque:hover {
-	opacity: 0.5; 
-	filter: grayscale(100%)
-}
-.button:active { 
-    transform: scale(0.95, 0.95);
-}
-
-.all-grey {
-	filter: grayscale(100%);
-}
-.shadow {
-	filter: drop-shadow(3px 4px 4px);
-}
+.contain-image { 
+	max-height: 100%;
+	max-width: 100%; 
+} 
 
 .blue {background-color: #a2adbf;}
 .tan {background-color: #c8a36f;}
@@ -102,16 +89,16 @@ opaque:hover {
 @media only screen and (max-width: 600px) {
 	
 	.wide-col { 
-		display: block
+	  display: block
 	}
 	
 	.game-col { 
-		width: 100%;
+	  width: 100%;
 	} 
 	
 	.contain-image {
-	max-height: 90%;
-	max-width: 100%;
+	  max-height: 90%;
+	  max-width: 100%;
 	}
     
 
