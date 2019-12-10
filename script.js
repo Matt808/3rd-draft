@@ -22,25 +22,44 @@ function resetAll(elem){
    window.location.reload();
 }
 
-function disappear(elem){ 
-    a.src = "images/Mask.gif"; 
-    j.src = "images/Link.png"; 
-	if (j.src = "images/Link.png") {
-		k.play()
-	} 
-} 
- 
- function noise(elem ){
-     if (j.src. = ("images/Link.png") 
+ /* When a specific image source is clicked then it plays an audio file */
+ function noise(elem){
+	if (j.src.match("images/Link.png")) { 
 	       k.play()	   
-	
-	else (j.src = ("images/CB.png") 
+	} 
+	else if (j.src.match("images/CB.png")) { 
 	       l.play()	   
-     } 
+	} 
+	else if (j.src.match("images/Fat_Man.png")) { 
+	       m.play()		   
+	} 
+	else if (j.src.match("images/Ryu.png")) { 
+	       n.play()		   
+	} 
+	else if (j.src.match("images/Kirb.png")) { 
+	       o.play()	   
+	} 
+	else if (j.src.match("images/Sonic.png")) { 
+	       p.play()		   
+	} 
+	else if (j.src.match("images/Clone.png")) { 
+	       q.play()		   
+	}  
+	else if (j.src.match("images/Scorpion.png")) { 
+	       r.play()		   
+	} 
+	else if (j.src.match("images/Cole.png")) { 
+	       s.play()		   
+	} 
 		
  } 
 
-
+/* Changes image source in two locations */
+function disappear(elem){ 
+    a.src = "images/Mask.gif"; 
+    j.src = "images/Link.png"; 
+} 
+ 
 
 function disappear2(elem){ 
     b.src = "images/Orange_fury.gif";
@@ -75,20 +94,11 @@ function disappear7(elem){
 function disappear8(elem){ 
     h.src = "images/Trilogy.gif";
     j.src = "images/Scorpion.png"; 
-    if (h.src = "images/Trilogy.gif")
-	       l.play() 
+
 } 
   
  function disappear9(elem){ 
     i.src = "images/Staff_Destruction.gif";
     j.src = "images/Cole.png"; 
 } 
-  
- 
-   
-function changeImage2(el){
-	i2.classList.remove("all-grey");
-	i2.classList.remove("yes-cursor","opaque");
-} 
-
  
