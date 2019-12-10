@@ -25,7 +25,8 @@ function resetAll(elem){
  /* When a specific image source is clicked then it plays an audio file */
  function noise(elem){
 	if (j.src.match("images/Link.png")) { 
-	       k.play()	   
+	       k.play()	 
+		console.log("detect")
 	} 
 	else if (j.src.match("images/CB.png")) { 
 	       l.play()	   
