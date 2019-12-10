@@ -26,7 +26,7 @@ body {
 .title { 
 	height: 25%; 
 	width: 100%;
-    display: flex
+        display: flex
 }
 
 
@@ -39,7 +39,6 @@ body {
 .box {  
 	height: 32%; 
 	width: 100%;  
-	padding: 5px;
 	display: flex; 
 } 
 
@@ -52,10 +51,6 @@ body {
 	cursor: pointer;
 } 
 
-.contain-image {
-	max-height: 90%;
-	max-width: 90%;
-}
 
 opaque:hover {
 	opacity: 0.5; 
