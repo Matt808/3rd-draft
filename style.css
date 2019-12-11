@@ -53,7 +53,11 @@ body {
 .contain-image { 
 	max-height: 100%;
 	max-width: 100%; 
-} 
+}  
+
+.shake:hover{
+	animation: shake 0.5s ;
+}
 
 .blue {background-color: #a2adbf;}
 .tan {background-color: #c8a36f;}
